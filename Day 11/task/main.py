@@ -1,5 +1,4 @@
 import random
-import include
 
 def play_game():
 	"""Set up the game. Create lists to represent each player's
@@ -7,26 +6,24 @@ def play_game():
 	cards = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
 	hand_computer = []
 	hand_player = []
-	play_score = 0
+	player_score = 0
 	comp_score = 0
+	game_over = False
 
 	for _ in range(2):
 		hand_computer.append(random.choice(cards))
 		hand_player.append(random.choice(cards))
 
-
 	print(f"Computer Hand: {hand_computer[0]}")	
 	print(f"Player Hand: {hand_player}")
-	if check_winner(hand_computer) == 21:
-		print("Computer Wins!")
+ 
+	while game_over == False:
 		
-	if check_winner(hand_player) == 21:
-		print("Player Wins!")
 
-def check_winner(hands):
+	
+def calculate_score(hands):
+    
 	sum_score = sum(hands)
-			
- #   if sum_score > 21 & 11 in hands:
 	return sum_score	
 	
 	
