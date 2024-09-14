@@ -1,5 +1,4 @@
 import random
-import time
 
 def calculate_score(hands):
 	if sum(hands) == 21 and len(hands) == 2:
@@ -14,7 +13,7 @@ def calculate_score(hands):
 
 def player_hit_or_stay():
 	while True: 
-		choice = str(input("Type 'h' to HIT, or 's' to STAY.\n")).lower()
+		choice = input("Type 'h' to HIT, or 's' to STAY.\n").lower()
 		if choice == 'h' or choice == 's':
 			return choice
 		else:
@@ -47,58 +46,37 @@ def play_game():
 		hand_computer.append(random.choice(cards))
 		hand_player.append(random.choice(cards))
 
-	hit_or_stay_choice = ""
+	print(f"Computer Hand: {hand_computer[0]}")	
+	
+
+ 
 	while game_over == False:
-
-		calculate_score_computer = calculate_score(hand_computer)
-		calculate_score_player = calculate_score(hand_player)
-		if calculate_score_computer == 0:
-			game_over = True
-			print("GAME OVER!")
-			print(f"Computer Hand: {hand_computer}")	
-			print(f"Player Hand: {hand_player}")
-			continue
-		elif calculate_score_computer == 1:
-			game_over = True
-			print("GAME OVER!")
-			print(f"Computer Hand: {hand_computer}")	
-			print(f"Player Hand: {hand_player}")
-			continue
-		if calculate_score_player == 0:
-			game_over = True
-			print("GAME OVER!")
-			print(f"Computer Hand: {hand_computer}")	
-			print(f"Player Hand: {hand_player}")
-			continue
-		elif calculate_score_player == 1:
-			game_over = True
-			print("GAME OVER!")
-			print(f"Computer Hand: {hand_computer}")	
-			print(f"Player Hand: {hand_player}")
-			continue
-
-		print(f"Computer Hand: {hand_computer[0]}")	
 		print(f"Player Hand: {hand_player}")
-		hit_or_stay_choice = player_hit_or_stay()
-		if hit_or_stay_choice == 'h':
+		if calculate_score(hand_computer) == 0:
+			comp_score = 21
+			game_over = True
+		elif calculate_score(hand_player) == 0:
+			player_score = 21
+			game_over = True
+		elif calculate_score(hand_player) == 1:
+			game_over = True
+			continue
+		else:
+			player_score += calculate_score(hand_player)
+
+		if player_hit_or_stay() == 'h':
 			hand_player.append(random.choice(cards))
 			continue
-		elif hit_or_stay_choice == 's':
-
-			while calculate_score(hand_computer) < 17 and calculate_score(hand_computer) > 1:
+		elif player_hit_or_stay() == 's':
+			while calculate_score(hand_computer) < 17 and \
+				calculate_score(hand_computer) > 0:
 				hand_computer.append(random.choice(cards))
-				calculate_score_computer = calculate_score(hand_computer)
 				print(f"Computer Hand: {hand_computer}")
-				time.sleep(2)
-
-			if calculate_score_computer	> 16 and calculate_score_computer != 1:
-				game_over = True
-				print("GAME OVER!")
-				print(f"Computer Hand: {hand_computer}")	
-				print(f"Player Hand: {hand_player}")
-
-	player_score = sum(hand_player)
-	comp_score = sum(hand_computer)
+			if calculate_score(hand_computer) == 1:
+					comp_score = 0
+			else:
+				comp_score += calculate_score(hand_computer)
+	
 	check_winner(player_score, comp_score)
 
 def start_game():
