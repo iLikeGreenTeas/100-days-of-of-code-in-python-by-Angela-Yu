@@ -110,5 +110,4 @@ def start_game():
 		return
 	play_game()
 
-
 start_game()
