@@ -20,11 +20,11 @@ math_operations={"+":add, "-":subtract,
 def run():
     print(art.logo)
     accumulate = "n"
-    num1 = int(input("Enter the first number:\n"))
+    num1 = float(input("Enter the first number:\n"))
     exit_loop = False
     while exit_loop == False:
         operator = input("Add, Subtract, Multiply, or Divide? Type '+', '-', '*', or '/':\n")
-        num2 = int(input("Enter the second number:\n"))
+        num2 = float(input("Enter the second number:\n"))
         result = math_operations[operator](num1, num2)
         print(f"The result is: {result}.")
         again = input("Another calculation? Type 'y' or 'n':\n").lower()
