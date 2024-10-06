@@ -1,0 +1,123 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0" version="24.7.16">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1666" dy="1918" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="e9Qm9Naqm2JfxZSBWMHz-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="e9Qm9Naqm2JfxZSBWMHz-1" target="e9Qm9Naqm2JfxZSBWMHz-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9Qm9Naqm2JfxZSBWMHz-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="347.5" y="-140" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e9Qm9Naqm2JfxZSBWMHz-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="e9Qm9Naqm2JfxZSBWMHz-2" target="e9Qm9Naqm2JfxZSBWMHz-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9Qm9Naqm2JfxZSBWMHz-2" value="Display Logo from art.py" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="340" y="-40" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e9Qm9Naqm2JfxZSBWMHz-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="e9Qm9Naqm2JfxZSBWMHz-4" target="e9Qm9Naqm2JfxZSBWMHz-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9Qm9Naqm2JfxZSBWMHz-4" value="Call &quot;select_item()&quot; and set it to itemA&lt;br&gt;randomly select element from list of dictionaries &quot;game_data&quot; and return it in a list variable" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="287.5" y="170" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="e9Qm9Naqm2JfxZSBWMHz-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="e9Qm9Naqm2JfxZSBWMHz-6" target="e9Qm9Naqm2JfxZSBWMHz-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9Qm9Naqm2JfxZSBWMHz-6" value="Call function &quot;format_comparisons(item, A_or_B)&quot; with itemA as the first value&lt;div&gt;# formats the list element item and returns a formatted string.&lt;br&gt;&lt;br&gt;This is comparison A; pass valu&lt;span style=&quot;background-color: initial;&quot;&gt;e &quot;A&quot;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="287.5" y="340" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="e9Qm9Naqm2JfxZSBWMHz-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="e9Qm9Naqm2JfxZSBWMHz-8" target="e9Qm9Naqm2JfxZSBWMHz-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9Qm9Naqm2JfxZSBWMHz-8" value="Display &quot;VS&quot; text calligraphy from art.py&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="332.5" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e9Qm9Naqm2JfxZSBWMHz-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="e9Qm9Naqm2JfxZSBWMHz-10" target="e9Qm9Naqm2JfxZSBWMHz-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9Qm9Naqm2JfxZSBWMHz-10" value="Call &quot;select_item()&quot; and set it to itemB&lt;br&gt;randomly select element from list of dictionaries &quot;game_data&quot; and return it in a list variable" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="287.5" y="650" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="e9Qm9Naqm2JfxZSBWMHz-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="e9Qm9Naqm2JfxZSBWMHz-12" target="e9Qm9Naqm2JfxZSBWMHz-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="395.0999999999999" y="970.0901408450704" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9Qm9Naqm2JfxZSBWMHz-12" value="Call function &quot;format_comparisons(item, A_or_B)&quot; with itemB as the first value&lt;div&gt;# formats the list element item and returns a formatted string.&lt;br&gt;&lt;br&gt;This is comparison B; pass valu&lt;span style=&quot;background-color: initial;&quot;&gt;e &quot;B&quot;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="287.5" y="810" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="e9Qm9Naqm2JfxZSBWMHz-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="e9Qm9Naqm2JfxZSBWMHz-19" target="e9Qm9Naqm2JfxZSBWMHz-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9Qm9Naqm2JfxZSBWMHz-19" value="Display &quot;Who has more followers? Item &#39;A&#39; or &#39;B&#39;:" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="307.5" y="990" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e9Qm9Naqm2JfxZSBWMHz-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="e9Qm9Naqm2JfxZSBWMHz-24" target="e9Qm9Naqm2JfxZSBWMHz-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9Qm9Naqm2JfxZSBWMHz-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="e9Qm9Naqm2JfxZSBWMHz-24" target="e9Qm9Naqm2JfxZSBWMHz-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9Qm9Naqm2JfxZSBWMHz-24" value="User reply" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="352.5" y="1110" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="e9Qm9Naqm2JfxZSBWMHz-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="e9Qm9Naqm2JfxZSBWMHz-25" target="e9Qm9Naqm2JfxZSBWMHz-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9Qm9Naqm2JfxZSBWMHz-25" value="Wrong" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="530" y="1120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e9Qm9Naqm2JfxZSBWMHz-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="e9Qm9Naqm2JfxZSBWMHz-26" target="e9Qm9Naqm2JfxZSBWMHz-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9Qm9Naqm2JfxZSBWMHz-26" value="Correct:&lt;div&gt;score += 1&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="332.5" y="1250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e9Qm9Naqm2JfxZSBWMHz-28" value="End" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="550" y="1240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="e9Qm9Naqm2JfxZSBWMHz-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.429;entryY=0.167;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="e9Qm9Naqm2JfxZSBWMHz-34" target="e9Qm9Naqm2JfxZSBWMHz-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="402.5" y="1440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9Qm9Naqm2JfxZSBWMHz-34" value="Clear screen" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="340" y="1370" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e9Qm9Naqm2JfxZSBWMHz-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="e9Qm9Naqm2JfxZSBWMHz-35" target="e9Qm9Naqm2JfxZSBWMHz-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9Qm9Naqm2JfxZSBWMHz-35" value="Display Logo from art.py" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="347.5" y="1470" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e9Qm9Naqm2JfxZSBWMHz-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="e9Qm9Naqm2JfxZSBWMHz-37" target="e9Qm9Naqm2JfxZSBWMHz-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="408" y="1660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9Qm9Naqm2JfxZSBWMHz-37" value="Display &quot;You&#39;re right! Current score: {score}&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="340" y="1560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e9Qm9Naqm2JfxZSBWMHz-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="e9Qm9Naqm2JfxZSBWMHz-40" target="e9Qm9Naqm2JfxZSBWMHz-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="90" y="1700" />
+              <mxPoint x="90" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9Qm9Naqm2JfxZSBWMHz-40" value="Set list itemA = itemB" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="340" y="1670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e9Qm9Naqm2JfxZSBWMHz-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="e9Qm9Naqm2JfxZSBWMHz-43" target="e9Qm9Naqm2JfxZSBWMHz-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9Qm9Naqm2JfxZSBWMHz-43" value="Set score = 0" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="347.5" y="50" width="90" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
